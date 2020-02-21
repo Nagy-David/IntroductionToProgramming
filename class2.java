@@ -5,7 +5,9 @@ public class Main
 	public static void main(String[] args) {
         int x = 5;
         System.out.println("x: "+x); //the value of x will be appended after the text
-        int y = 7;
+        int y;
+	y = 7; //the value of variables can be changed. In this case we just use the assignment operator (=) but we don't need to specify
+	       //the data type again.
         System.out.println("y: "+y);
         int addition = x + y; 
         System.out.println("x+y: "+addition);
