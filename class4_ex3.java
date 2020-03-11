@@ -17,11 +17,11 @@ public class Main
 		System.out.println("Enter a year: ");
        		 int y = sc.nextInt();
        		 if(y%4 == 0 && y%100!= 0 || y%400 == 0){
-           	 		System.out.println("YES");
-        		}        
+           	 	System.out.println("YES");
+        	 }        
        		 else {
-            			System.out.println("NO");
-        		}      
+            		System.out.println("NO");
+        	 }      
 		
 	}
 }
