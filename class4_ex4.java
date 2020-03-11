@@ -13,12 +13,12 @@ public class Main
         		int n = sc.nextInt();
         		//the brackets are mandatory because the && operator 
         		//is "stronger" than the || operator.
-if((n%5 == 0 || n%6 == 0) && n%2==0){ 
-            System.out.println("YES");
-        		}        
-        		else {
-            			System.out.println("NO");
-        		}      
+		if((n%5 == 0 || n%6 == 0) && n%2==0){ 
+            		System.out.println("YES");
+        	}        
+        	else {
+            		System.out.println("NO");
+        	}      
 		
 	}
 }
